@@ -44,9 +44,7 @@ const mainTree = new FractalTree({
 
 const fractalDefinition = document.getElementById("fractalDefinition");
 let mainTreeXoffset =
-	fractalDefinition.offsetLeft +
-	fractalDefinition.offsetWidth +
-	(window.innerWidth - (fractalDefinition.offsetLeft + fractalDefinition.offsetWidth)) / 2;
+	window.innerWidth - window.innerWidth / 4
 mainTree.startAnimation(3000);
 let finishRendering = false;
 const animateCb = (timestamp) => {
