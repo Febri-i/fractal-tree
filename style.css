@@ -18,24 +18,24 @@ body {
 
 @font-face {
 	font-family: Merriweather;
-	src: url("./fonts/Merriweather-Regular.ttf");
+	src: url("https://febri-i.github.io/fractal-tree/fonts/Merriweather-Regular.ttf");
 }
 
 @font-face {
 	font-family: Merriweather;
 	font-weight: bold;
-	src: url("./fonts/Merriweather-Bold.ttf");
+	src: url("https://febri-i.github.io/fractal-tree/fonts/Merriweather-Bold.ttf");
 }
 
 @font-face {
 	font-family: Poppins;
-	src: url("./fonts/Poppins-Regular.ttf");
+	src: url("https://febri-i.github.io/fractal-tree/fonts/Poppins-Regular.ttf");
 }
 
 @font-face {
 	font-family: Poppins;
 	font-weight: bold;
-	src: url("./fonts/Poppins-Bold.ttf");
+	src: url("https://febri-i.github.io/fractal-tree/fonts/Poppins-Bold.ttf");
 }
 
 #fractalDefinition span {
