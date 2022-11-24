@@ -12,7 +12,7 @@ body {
 }
 
 #fractalDefinition {
-	width: 30rem;
+	max-width: 30rem;
 	padding: 2rem 3rem;
 }
 
