@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: white;
+	overflow: hidden;
+	background-color: black;
+	background: linear-gradient(to bottom, rgb(12, 12, 12) 0%, black 100%);
+}
+
+#fractalDefinition {
+	width: 30rem;
+	padding: 2rem 3rem;
+}
+
+@font-face {
+	font-family: Merriweather;
+	src: url("/fonts/Merriweather-Regular.ttf");
+}
+
+@font-face {
+	font-family: Merriweather;
+	font-weight: bold;
+	src: url("/fonts/Merriweather-Bold.ttf");
+}
+
+@font-face {
+	font-family: Poppins;
+	src: url("/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+	font-family: Poppins;
+	font-weight: bold;
+	src: url("/fonts/Poppins-Bold.ttf");
+}
+
+#fractalDefinition span {
+	line-height: 0.8rem;
+	font-family: "Poppins";
+}
+
+#fractalDefinition h1 {
+	font-weight: bold;
+	text-decoration-line: underline;
+	margin-left: -1rem;
+	font-family: "Merriweather";
+}
+
+#fractalDefinition h3 {
+	font-weight: bold;
+	font-family: "Merriweather";
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+nav {
+	padding: 1rem 2rem;
+	font-family: "Poppins";
+	display: flex;
+	font-size: 1.3rem;
+	justify-content: space-between;
+}
+
+nav * {
+	cursor: pointer;
+}
+
+#navLeftContainer > :first-child {
+	font-weight: bold;
+}

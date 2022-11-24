@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Cool Tree</title>
+		<link
+			rel="stylesheet"
+			href="/style.css" />
+	</head>
+
+	<body>
+		<canvas
+			style="
+				width: 100%;
+				position: absolute;
+				z-index: 1;
+				background: linear-gradient(to bottom, rgb(12, 12, 12) 0%, black 100%);
+				height: 100%;
+			"
+			id="canvas"></canvas>
+		<main style="position: relative; z-index: 2">
+			<nav>
+				<div id="navLeftContainer"><span>Febri-i</span></div>
+				<div id="navRightContainer">
+					<span><a href="https://febri-i.github.io/aboutme/">About me</a></span>
+				</div>
+			</nav>
+			<div id="fractalDefinition">
+				<h1><a href="https://en.wikipedia.org/wiki/Fractal">frac·tal</a></h1>
+				<h3>/fraktəl/</h3>
+				<span>
+					a curve or geometric figure, each part of which has the same statistical character as the
+					whole. Fractals are useful in modeling structures (such as eroded coastlines or
+					snowflakes) in which similar patterns recur at progressively smaller scales, and in
+					describing partly random or chaotic phenomena such as crystal growth, fluid turbulence,
+					and galaxy formation
+				</span>
+			</div>
+		</main>
+	</body>
+	<script src="/src/FractalTree.js"></script>
+	<script src="/src/script.js"></script>
+</html>
