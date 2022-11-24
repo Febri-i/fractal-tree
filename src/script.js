@@ -83,10 +83,7 @@ window.addEventListener("resize", () => {
 	}
 	canvas.width = window.innerWidth;
 	canvas.height = window.innerHeight;
-	mainTreeXoffset =
-		fractalDefinition.offsetLeft +
-		fractalDefinition.offsetWidth +
-		(window.innerWidth - (fractalDefinition.offsetLeft + fractalDefinition.offsetWidth)) / 2;
+	mainTreeXoffset = window.innerWidth - window.innerWidth / 4;
 	if (finishRendering || mainTree.stop) {
 		window.requestAnimationFrame(animateCb);
 	}
